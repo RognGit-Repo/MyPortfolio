@@ -77,8 +77,8 @@ let delta_translate_x = 10;
 let delta_translate_y = 10;
 
 document.addEventListener("DOMContentLoaded", () => {
-  canvas.height = window.innerHeight;
-  canvas.width = window.innerWidth;
+  canvas.height = 1000;
+  canvas.width = 1000;
   translate_x = canvas.width / 2;
   translate_y = canvas.height / 2;
   recalc();
